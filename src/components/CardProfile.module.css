@@ -1,0 +1,27 @@
+.container{
+    @apply bg-[var(--Dark-blue)] mr-4 rounded-2xl w-60 h-full;
+    grid-area: profile;
+}
+
+.profile{
+    @apply flex flex-col bg-[var(--Blue)] text-[var(--Pale-Blue)] rounded-2xl p-6 h-4/6;
+}
+
+.name{
+    @apply text-4xl text-white font-light block mt-1;
+}
+
+.imgProfile{
+    @apply w-16 h-16 rounded-full border-gray-300 mb-5;
+}
+
+.buttons{
+    @apply flex flex-col h-44 pl-5 pt-6;
+}
+.button{
+    @apply  text-[var(--Desaturated-blue)] p-1.5 bg-transparent text-left cursor-pointer;
+}
+
+.button:hover{
+    @apply text-white rounded-lg;
+}
